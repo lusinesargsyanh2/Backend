@@ -2,7 +2,7 @@
 
 ## [Part A] Knowledge check
 
-**1. What was the C10k problem, and why did the "one thread per request" model of servers like Apache struggle with it?**
+### 1. What was the C10k problem, and why did the "one thread per request" model of servers like Apache struggle with it?
 
 **Answer:**
 C10K խնդիրը միաժամանակ սերվերին միացած 10 000 օգտատիրոջ սպասարկելու մարտահրավերն է։ Յուրաքանչյուր մուտքային միացում ստեղծում էր առանձին հոսք (thread), ինչը հանգեցնում էր օպերատիվ հիշողության (RAM) չափազանց մեծ ծավալի օգտագործմանը և մուտքի/ելքի (I/O) գործողությունների ժամանակ արգելափակումների (blocking) առաջացմանը՝ նվազեցնելով սերվերի արտադրողականությունը։
