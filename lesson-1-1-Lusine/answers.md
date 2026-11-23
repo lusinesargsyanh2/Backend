@@ -44,7 +44,7 @@ deps/ - Dependencies: Պարունակում է արտաքին գրադարան�
 - V8 – JS Engine։
 - libuv – ապահովում է Event Loop-ը և asynchronous I/O-ն։
 
-## 7. What is libuv, and why is it often called the "heart" of Node.js?
+### 7. What is libuv, and why is it often called the "heart" of Node.js?
 
 **Answer:**
 libuv-ը C լեզվով գրված cross-platform գրադարան է, որն օգտագործվում է Node.js-ում՝ ասինխրոն գործողություններ և ոչ բլոկավորող I/O ապահովելու համար։ Այն հաճախ անվանում են Node.js-ի «սիրտ» (heart), քանի որ պատասխանատու է Node.js-ի ասինխրոն աշխատանքի հիմնական մեխանիզմների համար։
@@ -108,7 +108,7 @@ internalBinding('fs')-ը կապ է ստեղծում JS-ի ներքին fs մոդ
 **Answer:**
 node_file.cc-ը պատասխանատու է Node.js-ում ֆայլային համակարգի C++ ֆունկցիոնալության իրականացման համար, ներառյալ libuv-ի միջոցով ֆայլերի ասինխրոն գործողությունների իրականացումը։
 
-### . Open deps/ and list 5 folders you find there. For each one, write its role in one line (use the lesson notes).
+### Open deps/ and list 5 folders you find there. For each one, write its role in one line (use the lesson notes).
 
 **Answers:**
 
